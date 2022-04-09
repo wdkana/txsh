@@ -1,0 +1,49 @@
+.container {
+  padding: 0 2rem;
+  background-color: #eaeaea;
+  height: 50vh;
+}
+
+.showcase {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: auto;
+}
+
+.slider {
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  min-height: 50vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+  padding: 3rem 0;
+  margin-top: -80px;
+}
+
+.modeButton {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
